@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_x" for="node" attr.name="x" attr.type="double"/>
+  <key id="v_y" for="node" attr.name="y" attr.type="double"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_x">-0.704790248705183</data>
+      <data key="v_y">1.32287353339555</data>
+    </node>
+    <node id="n1">
+      <data key="v_x">-1.12985048876473</data>
+      <data key="v_y">-2.24644280488877</data>
+    </node>
+    <node id="n2">
+      <data key="v_x">1.69593543403149</data>
+      <data key="v_y">-1.07161116959738</data>
+    </node>
+    <node id="n3">
+      <data key="v_x">-0.436594306357567</data>
+      <data key="v_y">-3.33007688933257</data>
+    </node>
+    <node id="n4">
+      <data key="v_x">-0.347301685116137</data>
+      <data key="v_y">-1.26226851645469</data>
+    </node>
+    <node id="n5">
+      <data key="v_x">-2.6815006712462</data>
+      <data key="v_y">-4.24515665185535</data>
+    </node>
+    <node id="n6">
+      <data key="v_x">-2.1610790061403</data>
+      <data key="v_y">-2.37207540520925</data>
+    </node>
+    <node id="n7">
+      <data key="v_x">-0.500934301826443</data>
+      <data key="v_y">0.364381331944981</data>
+    </node>
+    <node id="n8">
+      <data key="v_x">1.65580336773066</data>
+      <data key="v_y">0.470015518201077</data>
+    </node>
+    <node id="n9">
+      <data key="v_x">-1.37404883998495</data>
+      <data key="v_y">-3.44694290354445</data>
+    </node>
+    <node id="n10">
+      <data key="v_x">-1.94058740538649</data>
+      <data key="v_y">-0.239839093060227</data>
+    </node>
+    <node id="n11">
+      <data key="v_x">1.49892615091232</data>
+      <data key="v_y">1.49383155295872</data>
+    </node>
+    <node id="n12">
+      <data key="v_x">-0.274301531952928</data>
+      <data key="v_y">2.56493895939981</data>
+    </node>
+    <node id="n13">
+      <data key="v_x">1.76177409274149</data>
+      <data key="v_y">2.35733799890182</data>
+    </node>
+    <node id="n14">
+      <data key="v_x">0.837133166886132</data>
+      <data key="v_y">1.6086445107558</data>
+    </node>
+    <node id="n15">
+      <data key="v_x">0.650459006591425</data>
+      <data key="v_y">2.92104662624871</data>
+    </node>
+    <node id="n16">
+      <data key="v_x">1.10821927078351</data>
+      <data key="v_y">2.57755044935171</data>
+    </node>
+    <node id="n17">
+      <data key="v_x">2.31461859681763</data>
+      <data key="v_y">2.59391819673573</data>
+    </node>
+    <node id="n18">
+      <data key="v_x">1.56566565230005</data>
+      <data key="v_y">3.59070661364031</data>
+    </node>
+    <node id="n19">
+      <data key="v_x">-0.336619363813409</data>
+      <data key="v_y">3.32003945283745</data>
+    </node>
+    <node id="n20">
+      <data key="v_x">0.8345834722428</data>
+      <data key="v_y">3.47260963148141</data>
+    </node>
+    <node id="n21">
+      <data key="v_x">2.12119852555803</data>
+      <data key="v_y">3.13409145014422</data>
+    </node>
+    <node id="n22">
+      <data key="v_x">-2.73588182810871</data>
+      <data key="v_y">3.12098882485833</data>
+    </node>
+    <node id="n23">
+      <data key="v_x">3.41086064858802</data>
+      <data key="v_y">-2.6113108356151</data>
+    </node>
+    <node id="n24">
+      <data key="v_x">-1.51527848240577</data>
+      <data key="v_y">4.04255859534618</data>
+    </node>
+    <node id="n25">
+      <data key="v_x">-1.36099221161653</data>
+      <data key="v_y">2.09456863678515</data>
+    </node>
+    <node id="n26">
+      <data key="v_x">0.0670169014474738</data>
+      <data key="v_y">1.68434281783782</data>
+    </node>
+    <node id="n27">
+      <data key="v_x">0.176173697524788</data>
+      <data key="v_y">0.400334394919639</data>
+    </node>
+    <node id="n28">
+      <data key="v_x">-3.2675331543409</data>
+      <data key="v_y">0.946988230360035</data>
+    </node>
+    <node id="n29">
+      <data key="v_x">-2.64470935950747</data>
+      <data key="v_y">6.07061737920579</data>
+    </node>
+    <node id="n30">
+      <data key="v_x">-1.87279196679186</data>
+      <data key="v_y">1.52810714366065</data>
+    </node>
+    <node id="n31">
+      <data key="v_x">-0.0677735673221711</data>
+      <data key="v_y">-0.12637257265683</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n0" target="n4">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n0" target="n5">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n0" target="n7">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n0" target="n8">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n0" target="n9">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n0" target="n10">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n0" target="n14">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n0" target="n16">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n0" target="n18">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n0" target="n22">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n0" target="n24">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n0" target="n25">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n0" target="n26">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n0" target="n28">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n1" target="n4">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n1" target="n5">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n1" target="n6">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n1" target="n7">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n1" target="n9">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n1" target="n13">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n1" target="n14">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n1" target="n15">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n1" target="n18">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n1" target="n21">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n1" target="n23">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n1" target="n24">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n1" target="n25">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n1" target="n26">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n1" target="n28">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n1" target="n31">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n2" target="n4">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n2" target="n5">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n2" target="n7">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n2" target="n11">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n2" target="n12">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n2" target="n14">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n2" target="n20">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n2" target="n21">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n2" target="n22">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n2" target="n23">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n2" target="n25">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n2" target="n29">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n2" target="n30">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n2" target="n31">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n3" target="n4">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n3" target="n9">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n3" target="n11">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n3" target="n14">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n3" target="n16">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n3" target="n17">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n3" target="n23">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n3" target="n28">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n4" target="n5">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n4" target="n6">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n8">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n9">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n10">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n11">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n4" target="n13">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n4" target="n16">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n4" target="n19">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n4" target="n24">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n4" target="n27">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n4" target="n28">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n5" target="n6">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n5" target="n8">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n5" target="n9">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n5" target="n17">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n5" target="n19">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n5" target="n20">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n5" target="n29">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n5" target="n30">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n6" target="n10">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n6" target="n14">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n6" target="n15">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n6" target="n17">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n6" target="n18">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n6" target="n20">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n6" target="n21">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n6" target="n22">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n6" target="n26">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n6" target="n27">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n6" target="n28">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n6" target="n29">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n6" target="n30">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n7" target="n9">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n7" target="n10">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n7" target="n11">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n7" target="n12">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n7" target="n14">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n7" target="n15">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n7" target="n16">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n7" target="n20">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n7" target="n22">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n7" target="n23">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n7" target="n24">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n7" target="n28">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n7" target="n30">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n7" target="n31">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n8" target="n11">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n8" target="n13">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n8" target="n14">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n8" target="n15">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n8" target="n17">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n8" target="n20">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n8" target="n22">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n8" target="n24">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n8" target="n25">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n8" target="n27">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n8" target="n28">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n8" target="n29">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n8" target="n31">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n9" target="n16">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n9" target="n18">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n9" target="n21">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n9" target="n23">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n9" target="n28">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n9" target="n29">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n10" target="n11">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n10" target="n12">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n10" target="n14">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n10" target="n16">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n10" target="n18">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n10" target="n19">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n10" target="n20">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n10" target="n21">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n10" target="n24">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n10" target="n26">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n10" target="n27">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n10" target="n28">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n10" target="n29">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n10" target="n30">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n11" target="n13">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n11" target="n15">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n11" target="n16">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n11" target="n18">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n11" target="n19">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n11" target="n20">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n11" target="n21">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n11" target="n22">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n11" target="n28">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n11" target="n29">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n12" target="n13">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n12" target="n15">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n12" target="n16">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n12" target="n17">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n12" target="n19">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n12" target="n20">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n12" target="n22">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n12" target="n25">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n12" target="n27">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n12" target="n28">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n12" target="n31">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n13" target="n16">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n13" target="n17">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n13" target="n18">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n13" target="n19">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n13" target="n20">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n13" target="n22">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n13" target="n27">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n13" target="n31">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n14" target="n15">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n14" target="n16">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n14" target="n18">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n14" target="n19">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n14" target="n21">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n14" target="n22">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n14" target="n24">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n14" target="n25">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n14" target="n26">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n14" target="n27">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n14" target="n29">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n14" target="n30">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n14" target="n31">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n15" target="n16">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n15" target="n17">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n15" target="n18">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n15" target="n22">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n15" target="n25">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n15" target="n26">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n15" target="n30">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n15" target="n31">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n16" target="n17">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n16" target="n18">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n16" target="n19">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n16" target="n20">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n16" target="n21">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n16" target="n23">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n16" target="n24">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n17" target="n18">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n17" target="n20">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n17" target="n23">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n17" target="n24">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n17" target="n25">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n17" target="n26">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n17" target="n27">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n17" target="n28">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n17" target="n30">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n18" target="n19">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n18" target="n20">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n18" target="n21">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n18" target="n25">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n18" target="n26">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n18" target="n30">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n18" target="n31">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n19" target="n20">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n19" target="n21">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n19" target="n28">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n19" target="n29">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n19" target="n30">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n20" target="n21">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n20" target="n23">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n20" target="n24">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n20" target="n25">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n20" target="n27">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n20" target="n28">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n20" target="n29">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n21" target="n22">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n21" target="n23">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n21" target="n26">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n21" target="n27">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n21" target="n29">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n21" target="n30">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n22" target="n23">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n22" target="n24">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n22" target="n25">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n22" target="n30">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n22" target="n31">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n23" target="n24">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n23" target="n25">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n23" target="n26">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n24" target="n25">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n24" target="n29">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n25" target="n26">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n25" target="n27">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n25" target="n28">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n25" target="n30">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n26" target="n27">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n26" target="n31">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n27" target="n30">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n27" target="n31">
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n28" target="n31">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n29" target="n30">
+      <data key="e_weight">-1</data>
+    </edge>
+    <edge source="n30" target="n31">
+      <data key="e_weight">1</data>
+    </edge>
+  </graph>
+</graphml>

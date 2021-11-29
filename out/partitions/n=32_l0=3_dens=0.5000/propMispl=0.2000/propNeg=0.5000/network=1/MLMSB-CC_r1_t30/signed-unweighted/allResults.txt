@@ -1,0 +1,2 @@
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.2000/propNeg=0.5000/network=1/MLMSB-CC_r1_t30/signed-unweighted/membership0.txt
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.2000/propNeg=0.5000/network=1/MLMSB-CC_r1_t30/signed-unweighted/membership1.txt

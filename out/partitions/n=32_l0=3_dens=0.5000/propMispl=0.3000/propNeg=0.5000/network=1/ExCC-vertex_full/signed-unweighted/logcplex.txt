@@ -1,0 +1,186 @@
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Tried aggregator 1 time.
+LP Presolve eliminated 0 rows and 496 columns.
+All rows and columns eliminated.
+Presolve time = 0,00 sec. (0,06 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             0,000000
+Iteration:   102   Dual objective     =            29,000000
+Iteration:   211   Dual objective     =            44,000000
+Iteration:   298   Dual objective     =            49,500000
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 469 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            52,000000
+Perturbation started.
+Iteration:    51   Dual objective     =            52,000000
+Iteration:   128   Dual objective     =            52,500010
+Removing perturbation.
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 2 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            52,500000
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 1 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            52,500000
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 1 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            52,500000
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 17 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            52,500000
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 17 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            52,500000
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 41 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            52,500000
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 1 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            53,000000
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 1 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            53,000000
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 1 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            53,000000
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 2 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            53,000000
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 1 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            53,000000
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 2 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            53,000000
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 17 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            53,000000

@@ -1,0 +1,20 @@
+----
+date: Nov 1, 2021, 3:38:48 PM(n): (32)
+	cp time:	1s
+	time BB:		2s
+	node:		0n
+	first relax.:	0.0
+	gap after cp:		0.00
+	final gap:		0.00
+	best int.:	72
+	cp it.:		6
+	cp sep user cut time:	0.12s
+	cp sep triangle time:	0.04s
+	cp sep it user cut nb:	4
+	cp sep it triangle nb:	2
+	cp rounding time:	8.301734924316406E-4
+	cp cuts:
+		ST_Grotschell cut:	8
+		ST_Labbe cut:	2
+		triangle iterative cut:	2087
+

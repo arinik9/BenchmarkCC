@@ -1,0 +1,84 @@
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Pool_Intensity                      4
+CPXPARAM_MIP_Limits_Populate                     999
+CPXPARAM_MIP_Pool_AbsGap                         0.5
+Legacy callback                                  LD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 72,0000.
+Tried aggregator 1 time.
+Reduced MIP has 354 rows, 247 columns, and 1247 nonzeros.
+Reduced MIP has 247 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (0,39 ticks)
+Probing time = 0,00 sec. (0,07 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0,02 sec. (7,74 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+*     0+    0                           72,0000        0,0000           100,00%
+      0     0       69,5556   181       72,0000       69,5556      428    3,40%
+      0     0       69,7321   188       72,0000      Cuts: 47      475    3,15%
+      0     0       69,8220   188       72,0000      Cuts: 23      507    3,03%
+      0     0       69,8928   192       72,0000  ZeroHalf: 22      557    2,93%
+      0     0       69,9132   193       72,0000   ZeroHalf: 6      571    2,90%
+      0     2       69,9132   193       72,0000       69,9132      571    2,90%                        0             0
+Elapsed time = 0,66 sec. (228,27 ticks, tree = 0,02 MB, solutions = 1)
+
+Zero-half cuts applied:  19
+Lift and project cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0,66 sec. (227,84 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0,23 sec. (58,90 ticks)
+  Sync time (average)   =    0,08 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =    0,89 sec. (286,74 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Pool_Intensity                      4
+CPXPARAM_MIP_Limits_Populate                     999
+CPXPARAM_TimeLimit                               43200
+CPXPARAM_MIP_Pool_AbsGap                         0.5
+Legacy callback                                  LD
+
+Populate: phase II 
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 4 threads.
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+     44    46       71,4481   152       72,0000       71,0063     3686    1,38%         x_16_21 U     55     25      6
+Elapsed time = 0,07 sec. (1,41 ticks, tree = 0,06 MB, solutions = 1)
+    502   446       72,6685   171       72,0000       71,0063    24726    1,38%         x_13_18 D    500    169      6
+    803   756       72,0000     1       72,0000       72,0000    45256    0,00%          x_2_18 U    877    873     51
+   1005   810       72,0000     1       72,0000       72,0000    51557    0,00%          x_5_25 D   1161   1153     89
+   1186   884       72,0000     1       72,0000       72,0000    54833    0,00%         x_24_26 U   1274   1270    121
+   1431   913       72,0000     1       72,0000       72,0000    57042    0,00%         x_12_14 U   1331   1327    109
+
+Zero-half cuts applied:  19
+Lift and project cuts applied:  1
+User cuts applied:  1695
+
+Root node processing (before b&c):
+  Real time             =    0,00 sec. (0,10 ticks)
+Parallel b&c, 4 threads:
+  Real time             =   19,17 sec. (1369,10 ticks)
+  Sync time (average)   =    2,25 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =   19,17 sec. (1369,20 ticks)

@@ -1,0 +1,9 @@
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=2/OneTreeCC-vertex_reduced/signed-unweighted/membership0.txt
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=2/OneTreeCC-vertex_reduced/signed-unweighted/membership1.txt
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=2/OneTreeCC-vertex_reduced/signed-unweighted/membership2.txt
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=2/OneTreeCC-vertex_reduced/signed-unweighted/membership3.txt
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=2/OneTreeCC-vertex_reduced/signed-unweighted/membership4.txt
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=2/OneTreeCC-vertex_reduced/signed-unweighted/membership5.txt
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=2/OneTreeCC-vertex_reduced/signed-unweighted/membership6.txt
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=2/OneTreeCC-vertex_reduced/signed-unweighted/membership7.txt
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=2/OneTreeCC-vertex_reduced/signed-unweighted/membership8.txt

@@ -1,0 +1,18 @@
+----
+date: Nov 1, 2021, 3:37:15 PM(n): (0)
+	cp time:	1s
+	time BB:		0s
+	node:		0n
+	first relax.:	0.0
+	gap after cp:		0.07
+	final gap:		44.00
+	best int.:	43
+	cp it.:		5
+	cp sep user cut time:	0.09s
+	cp sep triangle time:	0.03s
+	cp sep it user cut nb:	1
+	cp sep it triangle nb:	4
+	cp rounding time:	7.569789886474609E-4
+	cp cuts:
+		cycle bfs cut:	379
+

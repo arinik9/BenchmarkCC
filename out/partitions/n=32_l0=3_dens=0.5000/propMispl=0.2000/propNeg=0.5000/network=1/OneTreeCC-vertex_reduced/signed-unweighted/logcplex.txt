@@ -1,0 +1,67 @@
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Pool_Intensity                      4
+CPXPARAM_MIP_Limits_Populate                     999
+CPXPARAM_MIP_Pool_AbsGap                         0.5
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 49,0000.
+Tried aggregator 1 time.
+MIP Presolve eliminated 798 rows and 0 columns.
+Reduced MIP has 6439 rows, 496 columns, and 19320 nonzeros.
+Reduced MIP has 496 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,03 sec. (7,09 ticks)
+Probing time = 0,05 sec. (0,42 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 6439 rows, 496 columns, and 19320 nonzeros.
+Reduced MIP has 496 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,02 sec. (5,68 ticks)
+Probing time = 0,01 sec. (0,49 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0,24 sec. (46,10 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           49,0000        0,0000           100,00%
+      0     0       49,0000    47       49,0000       49,0000     1039    0,00%
+
+Root node processing (before b&c):
+  Real time             =    0,37 sec. (66,76 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0,00 sec. (0,00 ticks)
+  Sync time (average)   =    0,00 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =    0,37 sec. (66,76 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Pool_Intensity                      4
+CPXPARAM_MIP_Limits_Populate                     999
+CPXPARAM_TimeLimit                               43200
+CPXPARAM_MIP_Pool_AbsGap                         0.5
+
+Populate: phase II 
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     2       49,0000    47       49,0000       49,0000     1039    0,00%
+Elapsed time = 0,41 sec. (158,40 ticks, tree = 0,02 MB, solutions = 1)
+     37    22       60,0000     0       49,0000       49,0000     5306    0,00%
+     83    45       49,0000     1       49,0000       49,0000     9433    0,00%
+    180    81       57,0000     0       49,0000       49,0000    13752    0,00%
+    407   198       54,0000     0       49,0000       49,0000    17566    0,00%
+
+Root node processing (before b&c):
+  Real time             =    0,37 sec. (156,07 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    7,43 sec. (1131,73 ticks)
+  Sync time (average)   =    2,34 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =    7,81 sec. (1287,80 ticks)

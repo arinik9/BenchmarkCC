@@ -1,0 +1,76 @@
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Pool_Intensity                      4
+CPXPARAM_MIP_Limits_Populate                     999
+CPXPARAM_MIP_Pool_AbsGap                         0.5
+Legacy callback                                  LD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 40,0000.
+Tried aggregator 1 time.
+Reduced MIP has 211 rows, 252 columns, and 716 nonzeros.
+Reduced MIP has 252 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (0,24 ticks)
+Probing time = 0,00 sec. (0,05 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0,00 sec. (0,50 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+*     0+    0                           40,0000        0,0000           100,00%
+      0     0       40,0000     0       40,0000       40,0000      125    0,00%
+
+User cuts applied:  64
+
+Root node processing (before b&c):
+  Real time             =    0,23 sec. (3,76 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0,00 sec. (0,00 ticks)
+  Sync time (average)   =    0,00 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =    0,23 sec. (3,76 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Pool_Intensity                      4
+CPXPARAM_MIP_Limits_Populate                     999
+CPXPARAM_TimeLimit                               43200
+CPXPARAM_MIP_Pool_AbsGap                         0.5
+Legacy callback                                  LD
+
+Populate: phase II 
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+MIP emphasis: balance optimality and feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 4 threads.
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     2       40,0000     1       40,0000       40,0000      125    0,00%                        0             0
+Elapsed time = 0,05 sec. (1,76 ticks, tree = 0,02 MB, solutions = 1)
+     98    49       40,0000     1       40,0000       40,0000     1311    0,00%           x_2_9 U    266    262     52
+    183    52    infeasible             40,0000       40,0000     1803    0,00%          x_5_23 U    264    260     93
+    238    64       47,0000     0       40,0000       40,0000     2107    0,00%         x_22_31 D    328    296    115
+    303    62    infeasible             40,0000       40,0000     2339    0,00%         x_10_21 U    484    480    152
+    351    68       40,0000     1       40,0000       40,0000     2465    0,00%         x_12_13 U    263    255    176
+    419    72       40,0000     1       40,0000       40,0000     2690    0,00%         x_15_21 U    475    471    211
+
+User cuts applied:  2729
+
+Root node processing (before b&c):
+  Real time             =    0,02 sec. (1,11 ticks)
+Parallel b&c, 4 threads:
+  Real time             =   17,41 sec. (1498,13 ticks)
+  Sync time (average)   =   10,23 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =   17,43 sec. (1499,24 ticks)

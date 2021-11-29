@@ -1,0 +1,7 @@
+1:./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=1/EnumCC-maxNbEdit3-edge/signed-unweighted/1/membership0.txt
+1:./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=1/EnumCC-maxNbEdit3-edge/signed-unweighted/1/membership1.txt
+1:./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=1/EnumCC-maxNbEdit3-edge/signed-unweighted/1/membership2.txt
+1:./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=1/EnumCC-maxNbEdit3-edge/signed-unweighted/1/membership3.txt
+1:./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=1/EnumCC-maxNbEdit3-edge/signed-unweighted/1/membership4.txt
+1:./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=1/EnumCC-maxNbEdit3-edge/signed-unweighted/1/membership5.txt
+1:./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.5000/network=1/EnumCC-maxNbEdit3-edge/signed-unweighted/1/membership6.txt

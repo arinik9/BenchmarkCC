@@ -1,0 +1,5 @@
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.3000/network=2/EnumCC-maxNbEdit3-vertex_reduced/signed-unweighted/1/membership0.txt
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.3000/network=2/EnumCC-maxNbEdit3-vertex_reduced/signed-unweighted/1/membership1.txt
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.3000/network=2/EnumCC-maxNbEdit3-vertex_reduced/signed-unweighted/2/membership0.txt
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.3000/network=2/EnumCC-maxNbEdit3-vertex_reduced/signed-unweighted/2/membership1.txt
+./out/partitions/n=32_l0=3_dens=0.5000/propMispl=0.3000/propNeg=0.3000/network=2/EnumCC-maxNbEdit3-vertex_reduced/signed-unweighted/2/membership2.txt

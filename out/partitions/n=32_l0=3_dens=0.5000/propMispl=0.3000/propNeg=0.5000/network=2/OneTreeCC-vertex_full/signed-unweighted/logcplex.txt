@@ -1,0 +1,78 @@
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Pool_Intensity                      4
+CPXPARAM_MIP_Limits_Populate                     999
+CPXPARAM_MIP_Pool_AbsGap                         0.5
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 61,0000.
+Tried aggregator 1 time.
+Reduced MIP has 14896 rows, 496 columns, and 44760 nonzeros.
+Reduced MIP has 496 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,10 sec. (13,28 ticks)
+Probing time = 0,08 sec. (0,96 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 14896 rows, 496 columns, and 44760 nonzeros.
+Reduced MIP has 496 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,05 sec. (13,00 ticks)
+Probing time = 0,12 sec. (1,12 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 4,17 sec. (324,44 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           61,0000        0,0000           100,00%
+      0     0       60,3798   310       61,0000       60,3798     3992    1,02%
+
+Root node processing (before b&c):
+  Real time             =    4,58 sec. (368,23 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0,00 sec. (0,00 ticks)
+  Sync time (average)   =    0,00 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =    4,58 sec. (368,23 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Pool_Intensity                      4
+CPXPARAM_MIP_Limits_Populate                     999
+CPXPARAM_TimeLimit                               43200
+CPXPARAM_MIP_Pool_AbsGap                         0.5
+
+Populate: phase II 
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     2       60,3798   310       61,0000       60,3798     3992    1,02%
+Elapsed time = 10,55 sec. (1060,50 ticks, tree = 0,02 MB, solutions = 1)
+      2     4       60,9219   253       61,0000       60,4211     4669    0,95%
+      7     4       61,6111   139       61,0000       60,4211     5219    0,95%
+     12     9       61,5000   246       61,0000       60,9411     8182    0,10%
+     13    10       63,3125   187       61,0000       60,9411     8097    0,10%
+     18    14       62,5000    32       61,0000       60,9411    11991    0,10%
+     23    23       61,0000     1       61,0000       60,9411    19480    0,10%
+     27    25       61,0000     1       61,0000       61,0000    22019    0,00%
+     31    29       61,0000     1       61,0000       61,0000    22679    0,00%
+     35    26       62,0000     0       61,0000       61,0000    22742    0,00%
+     57    45       72,0000     0       61,0000       61,0000    31228    0,00%
+Elapsed time = 55,67 sec. (4814,30 ticks, tree = 3,18 MB, solutions = 2)
+    140    81       65,0000     0       61,0000       61,0000    36290    0,00%
+    298   151       61,0000     1       61,0000       61,0000    45048    0,00%
+    427   219       70,0000     0       61,0000       61,0000    54055    0,00%
+    609   305       61,0000     1       61,0000       61,0000    65138    0,00%
+    711   382       63,0000     0       61,0000       61,0000    72569    0,00%
+
+Root node processing (before b&c):
+  Real time             =   10,53 sec. (1053,78 ticks)
+Parallel b&c, 4 threads:
+  Real time             =  103,75 sec. (8603,04 ticks)
+  Sync time (average)   =   20,37 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =  114,27 sec. (9656,82 ticks)

@@ -1,0 +1,132 @@
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Tried aggregator 1 time.
+LP Presolve eliminated 0 rows and 496 columns.
+All rows and columns eliminated.
+Presolve time = 0,00 sec. (0,06 ticks)
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             1,000000
+Iteration:   105   Dual objective     =            23,000000
+Iteration:   221   Dual objective     =            42,500000
+Iteration:   310   Dual objective     =            50,750000
+Iteration:   379   Dual objective     =            54,625000
+Iteration:   441   Dual objective     =            56,774194
+Iteration:   503   Dual objective     =            57,850000
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 615 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            57,937500
+Perturbation started.
+Iteration:    51   Dual objective     =            57,937500
+Iteration:   137   Dual objective     =            58,766682
+Iteration:   206   Dual objective     =            59,111134
+Iteration:   280   Dual objective     =            59,425333
+Iteration:   348   Dual objective     =            59,750045
+Iteration:   420   Dual objective     =            59,981584
+Iteration:   486   Dual objective     =            60,264368
+Removing perturbation.
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 16 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            60,288633
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 5 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            60,297872
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 6 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            60,297872
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                2
+CPXPARAM_QPMethod                                2
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             2
+CPXPARAM_TimeLimit                               43200
+Reinitializing dual norms . . .
+Computed 7 new norms.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            60,300000
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_TimeLimit                               43199.002933979034
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 61,0000.
+Tried aggregator 1 time.
+Reduced MIP has 6778 rows, 496 columns, and 20429 nonzeros.
+Reduced MIP has 496 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,05 sec. (7,45 ticks)
+Probing time = 0,07 sec. (0,44 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 6778 rows, 496 columns, and 20429 nonzeros.
+Reduced MIP has 496 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,03 sec. (9,60 ticks)
+Probing time = 0,02 sec. (0,52 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0,82 sec. (215,68 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           61,0000        0,0000           100,00%
+      0     0       60,3000   185       61,0000       60,3000     4210    1,15%
+      0     0        cutoff             61,0000       60,3000     4210    1,15%
+Elapsed time = 1,04 sec. (242,49 ticks, tree = 0,01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    1,04 sec. (242,50 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0,00 sec. (0,00 ticks)
+  Sync time (average)   =    0,00 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =    1,04 sec. (242,50 ticks)

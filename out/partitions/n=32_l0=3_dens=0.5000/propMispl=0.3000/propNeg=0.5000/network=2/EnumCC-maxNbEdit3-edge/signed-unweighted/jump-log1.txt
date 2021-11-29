@@ -1,0 +1,47 @@
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_LPMethod                                3
+CPXPARAM_QPMethod                                3
+CPXPARAM_Threads                                 4
+CPXPARAM_MIP_Strategy_StartAlgorithm             3
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_MIP_Limits_Solutions                    1
+CPXPARAM_TimeLimit                               43197
+Legacy callback                                  LD
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling presolve reductions that prevent crushing forms (CPX_PARAM_PREREFORM).
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+Tried aggregator 1 time.
+MIP Presolve eliminated 1 rows and 0 columns.
+Reduced MIP has 320 rows, 240 columns, and 3403 nonzeros.
+Reduced MIP has 240 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,00 sec. (1,12 ticks)
+Probing time = 0,00 sec. (0,10 ticks)
+MIP emphasis: integer feasibility.
+MIP search method: traditional branch-and-cut.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0,01 sec. (3,89 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+      0     0       59,9755   149                     59,9755      174         
+      0     0       60,2854   141                    Cuts: 38      234         
+      0     0       60,3385   145                    Cuts: 24      275         
+      0     0       60,3621   153                    Cuts: 14      305         
+      0     2       60,3621   153                     60,3621      305                                 0             0
+Elapsed time = 0,18 sec. (71,25 ticks, tree = 0,02 MB, solutions = 0)
+
+Zero-half cuts applied:  13
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  3
+User cuts applied:  313
+
+Root node processing (before b&c):
+  Real time             =    0,17 sec. (70,86 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0,25 sec. (30,78 ticks)
+  Sync time (average)   =    0,05 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =    0,42 sec. (101,64 ticks)
