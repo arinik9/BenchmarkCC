@@ -968,14 +968,15 @@ perform.all.cluster.characterization = function(graph.sizes, d, l0, prop.mispls,
 		tlog(8, "performing cluster characterization => n: ", n)
 		
 		for(prop.mispl in prop.mispls){
-			tlog(8, "performing cluster characterization => prop.mispl: ", prop.mispl)
+			tlog(8, "performing cluster analysis => prop.mispl: ", prop.mispl)
 			
-		    if(is.na(prop.negs) && d == 1){
-		        prop.negs = compute.prop.neg(n, d, l0, prop.mispl)
-		    }
+			my.prop.negs = prop.negs # if we do not do that, for each n value, prop negs will not be the initial value(s)
+			if(is.na(my.prop.negs) && d == 1){
+				my.prop.negs = compute.prop.neg(n, d, l0, prop.mispl)
+			}
 			
-			for(prop.neg in prop.negs){
-				tlog(12, "performing cluster characterization => prop.neg: ", prop.neg)
+			for (prop.neg in my.prop.negs) {
+				tlog(12, "performing cluster analysis => prop.neg: ", prop.neg)
 				
 				for(network.no in in.rand.net.folders){
 					tlog(16, "performing cluster characterization => network.no: ", network.no)

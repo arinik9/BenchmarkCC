@@ -104,15 +104,14 @@ compute.mean.and.sd.dist.scores = function(dist.mtrx, is.mtrx.symmetric, m, by.r
 # force: whether or not the existing files are overwritten by a fresh call of all corresponding methods (e.g partitioning method)
 #
 #################################################################
-process.algo.evaluation = function(eval.folder, part.folder, algo.name, net.folder, graph.desc.name, 
-                                    comp.measures, force){
+process.algo.evaluation = function(eval.folder, part.folder, algo.name, net.folder, graph.desc.name, comp.measures, force){
 
     graph.name = paste0(graph.desc.name,".G")
 	
 	is.mtrx.symmetric = TRUE # this comes by definition of the method
 	#mbrshps = load.membership.files(part.folder)
 	#m = length(mbrshps) # nb partition
-	m = length(read.table(file.path(part.folder,"allResults.txt"))$V1)
+	m = length(read.table(file.path(part.folder,"allResults.txt"),stringsAsFactors = F)$V1)
 	if(m>0){ # if there is at least 1 optimal solution
 		network.path = file.path(net.folder,graph.name)
 		g = read.graph.ils(network.path)
@@ -137,7 +136,6 @@ process.algo.evaluation = function(eval.folder, part.folder, algo.name, net.fold
 		write.csv(x=mtrx, file=table.file, row.names=TRUE)
 		# ---------------------------------------------------------------------
 
-		
 		# ---------------------------------------------------------------------
 		# exec time
 		table.file = file.path(eval.folder, paste0(EVAL.EXEC.TIME.FILENAME,".csv"))
@@ -176,14 +174,12 @@ process.algo.evaluation = function(eval.folder, part.folder, algo.name, net.fold
 			
 		}
 		# ---------------------------------------------------------------------
-
 		
 		# ---------------------------------------------------------------------
 		# TODO: used RAM
 		#
 		# ---------------------------------------------------------------------
 		
-#if(FALSE){			
 		# ---------------------------------------------------------------------
 		# clusters
 		# we create matrix of size m x n where is m: nb solutions and n: nb nodes
@@ -213,9 +209,9 @@ process.algo.evaluation = function(eval.folder, part.folder, algo.name, net.fold
 			}
 		}
 		# ---------------------------------------------------------------------
-#}
 		
-		
+	mbrshps = load.membership.files(part.folder)
+
 		# ---------------------------------------------------------------------
 		# imbalance value and proportion
 		tlog(24, "process algo evaluation: imbalance")
@@ -251,7 +247,6 @@ process.algo.evaluation = function(eval.folder, part.folder, algo.name, net.fold
 		}
 		# ---------------------------------------------------------------------
 
-#if(FALSE){		
 		# ---------------------------------------------------------------------
 		# distance measures
 		tlog(24, "process algo evaluation: distance")
@@ -262,56 +257,65 @@ process.algo.evaluation = function(eval.folder, part.folder, algo.name, net.fold
 			print(mtrx.file)
 			if(!file.exists(mtrx.file) || force){
 				dist.mtrx = NA
-
-				if(measure == EDIT){
-					
-					#cmd = paste0("java -DisBatchMode=true -DinputDirPath='",part.folder,"' -DoutputDirPath='",eval.folder,"' -jar lib/ClusteringEditDist.jar")
-					cmd = paste0("java -DisBatchMode=true -DinputDirPath='' -DsolutionsFilePath='",file.path(part.folder,"allResults.txt"),"' -DoutputDirPath='",eval.folder,"' -jar lib/ClusteringEditDist.jar")
-					print(cmd)
-					system(command = cmd)
-					
-				} else {
-					
-					# ===========================================================================
-					# This is the faster way to compute the normalization of VI and EDIT distances.
-					# We do not want to spend much time to compute their normalizations, if the raw distance are already computed
-					done = FALSE
-					if(measure == EDIT.NORM){
-						edit.mtrx.file = file.path(eval.folder, paste0(EVAL.DIST.MATRIX.FILE.PREFIX,"-",EDIT,".csv"))
-						if(file.exists(edit.mtrx.file)){
-							edit.dist.mtrx = as.matrix(read.csv(edit.mtrx.file, row.names = 1, header= TRUE, check.names=FALSE))
-							dist.mtrx = matrix(as.numeric(edit.dist.mtrx),nrow=nrow(edit.dist.mtrx), ncol=ncol(edit.dist.mtrx))/n
-							done = TRUE
-						}
-					}
-					# else if(measure == NVI){ # OLD CODE => WE NORMALIZE VI BY JOINT ENTROPY
-					#                           NORMALIZATION WITH LOG(N) DOES NOT ALLOW TO COMPARE DATASETS OF DIFFERENT SIZES
-					# 	vi.mtrx.file = file.path(eval.folder, paste0(EVAL.DIST.MATRIX.FILE.PREFIX,"-",VI,".csv"))
-					# 	if(file.exists(vi.mtrx.file)){
-					# 	    vi.dist.mtrx = as.matrix(read.csv(vi.mtrx.file, row.names = 1, header= TRUE, check.names=FALSE))
-					# 		dist.mtrx = matrix(as.numeric(vi.dist.mtrx),nrow=nrow(vi.dist.mtrx), ncol=ncol(vi.dist.mtrx))/log(n)
-					# 		done = TRUE
-					# 	}
-					# }
-					# ===========================================================================
-	
-					if(!done){
-						par.mode = TRUE
-						nb.core = PAR.MODE.NB.CORE.DEFAULT
-						chunk.size = PAR.MODE.CHUNK.SIZE.DEFAULT
-						if(m < PAR.MODE.THRESH.NB.MEM.FILE){ # if there is just a small amount of files, do it sequantially
-							par.mode = FALSE
-							nb.core = NA
-							chunk.size = NA
-						}
-						dist.mtrx = create.distance.matrix(measure, part.folder1=part.folder, nb.part1=m, algo.name1=algo.name,
-								is.mtrx.symmetric, parallel.mode=par.mode, nb.core=nb.core, chunk.size=chunk.size)
-					}
 				
+				if(m<=MAX.NB.SOLS.FOR.PROCESSING){
+
+					if(measure == EDIT){
+						
+						#cmd = paste0("java -DisBatchMode=true -DinputDirPath='",part.folder,"' -DoutputDirPath='",eval.folder,"' -jar lib/ClusteringEditDist.jar")
+						cmd = paste0("java -DisBatchMode=true -DinputDirPath='' -DsolutionsFilePath='",file.path(part.folder,"allResults.txt"),"' -DoutputDirPath='",eval.folder,"' -jar lib/ClusteringEditDist.jar")
+						print(cmd)
+						system(command = cmd)
+						
+					} else {
+						
+						# ===========================================================================
+						# This is the faster way to compute the normalization of VI and EDIT distances.
+						# We do not want to spend much time to compute their normalizations, if the raw distance are already computed
+						done = FALSE
+						if(measure == EDIT.NORM){
+							edit.mtrx.file = file.path(eval.folder, paste0(EVAL.DIST.MATRIX.FILE.PREFIX,"-",EDIT,".csv"))
+							if(file.exists(edit.mtrx.file)){
+								edit.dist.mtrx = as.matrix(read.csv(edit.mtrx.file, row.names = 1, header= TRUE, check.names=FALSE))
+								dist.mtrx = matrix(as.numeric(edit.dist.mtrx),nrow=nrow(edit.dist.mtrx), ncol=ncol(edit.dist.mtrx))/n
+								done = TRUE
+							}
+						}
+						# else if(measure == NVI){ # OLD CODE => WE NORMALIZE VI BY JOINT ENTROPY
+						#                           NORMALIZATION WITH LOG(N) DOES NOT ALLOW TO COMPARE DATASETS OF DIFFERENT SIZES
+						# 	vi.mtrx.file = file.path(eval.folder, paste0(EVAL.DIST.MATRIX.FILE.PREFIX,"-",VI,".csv"))
+						# 	if(file.exists(vi.mtrx.file)){
+						# 	    vi.dist.mtrx = as.matrix(read.csv(vi.mtrx.file, row.names = 1, header= TRUE, check.names=FALSE))
+						# 		dist.mtrx = matrix(as.numeric(vi.dist.mtrx),nrow=nrow(vi.dist.mtrx), ncol=ncol(vi.dist.mtrx))/log(n)
+						# 		done = TRUE
+						# 	}
+						# }
+						# ===========================================================================
+		
+						if(!done){
+							par.mode = TRUE
+							nb.core = PAR.MODE.NB.CORE.DEFAULT
+							chunk.size = PAR.MODE.CHUNK.SIZE.DEFAULT
+							if(m < PAR.MODE.THRESH.NB.MEM.FILE){ # if there is just a small amount of files, do it sequantially
+								par.mode = FALSE
+								nb.core = NA
+								chunk.size = NA
+							}
+							dist.mtrx = create.distance.matrix(measure, part.folder1=part.folder, nb.part1=m, algo.name1=algo.name,
+									is.mtrx.symmetric, parallel.mode=par.mode, nb.core=nb.core, chunk.size=chunk.size)
+						}
+					
+						write.csv(x=dist.mtrx, file=mtrx.file)
+					}
+				}
+				else {
+					dist.mtrx = matrix(0, 1, 1) # a single entry matrix
+					colnames(dist.mtrx) = c(paste(algo.name, "sol0"))
+					rownames(dist.mtrx) = c(paste(algo.name, "sol0"))
 					write.csv(x=dist.mtrx, file=mtrx.file)
 				}
+				
 			}
-
 
 
 			tlog(28, "process algo evaluation: mean & sd values for the measure: ", measure)
@@ -339,9 +343,11 @@ process.algo.evaluation = function(eval.folder, part.folder, algo.name, net.fold
 				rownames(result) = paste(algo.name, "sol", seq(0, m-1))
 				write.csv(x=result, file=table.file, row.names=TRUE)
 			}
+
+
 		}
 		# ---------------------------------------------------------------------
-#}
+
 
 	}
 }
@@ -407,19 +413,21 @@ evaluate.partitions = function(graph.sizes, d, l0, prop.mispls, prop.negs, in.ra
 	for(n in graph.sizes){
 		tlog(4, "evaluating partitions => n: ", n)
 		
-		for(prop.mispl in prop.mispls){
-			tlog(8, "evaluating partitions => prop.mispl: ", prop.mispl)
+		for (prop.mispl in prop.mispls) {
+			tlog(8, "partitioning networks => prop.mispl: ", prop.mispl)
 			
-		    if(is.na(prop.negs) && d == 1){
-		        prop.negs = compute.prop.neg(n, d, l0, prop.mispl)
-		    }		
+			my.prop.negs = prop.negs # if we do not do that, for each n value, prop negs will not be the initial value(s)
+			if(is.na(my.prop.negs) && d == 1){
+				my.prop.negs = compute.prop.neg(n, d, l0, prop.mispl)
+			}
 			
-			for(prop.neg in prop.negs){
+			for (prop.neg in my.prop.negs) {
 				tlog(12, "evaluating partitions => prop.neg: ", prop.neg)
 				
 								
 				net.folder = get.input.network.folder.path(n, l0, d, prop.mispl, prop.neg, network.no=NA)
 				if(dir.exists(net.folder)){
+				
 				
 					for(network.no in in.rand.net.folders){
 						tlog(16, "evaluating partitions => network.no: ", network.no)
